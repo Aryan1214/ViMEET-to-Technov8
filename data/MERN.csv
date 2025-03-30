@@ -1,0 +1,84 @@
+QuestionID,Question,Answer,Keywords,DifficultyLevel
+1,"What is the MERN stack?","MERN stack is a JavaScript stack used for building full-stack web applications. It consists of MongoDB, Express, React, and Node.js.","MERN, stack, MongoDB, Express, React, Node.js",Easy
+2,"What is MongoDB used for in the MERN stack?","MongoDB is used as the database to store application data.","MongoDB, database, MERN",Easy
+3,"What is Express.js?","Express.js is a back-end web application framework for Node.js.","Express, Node.js, framework",Easy
+4,"Why is React used in the MERN stack?","React is used for building the user interface of the application.","React, UI, MERN",Easy
+5,"What is the role of Node.js in the MERN stack?","Node.js is used for running the back-end server and executing JavaScript on the server side.","Node.js, server, backend",Easy
+6,"How does the MERN stack support full-stack development?","The MERN stack combines MongoDB for the database, Express.js and Node.js for the back end, and React for the front end to build full-stack applications.","full-stack, MERN, MongoDB, Express, React, Node.js",Medium
+7,"What is JSX in React?","JSX is a syntax extension for JavaScript that allows HTML to be written within JavaScript.","JSX, React, JavaScript",Easy
+8,"How do you connect MongoDB with Node.js?","You can use the Mongoose library to connect MongoDB with Node.js.","MongoDB, Node.js, Mongoose, connection",Medium
+9,"What is the purpose of Mongoose in MongoDB?","Mongoose provides a schema-based solution to model application data and interact with MongoDB.","Mongoose, MongoDB, schema",Medium
+10,"What is middleware in Express.js?","Middleware is a function that has access to the request and response objects and can modify them or end the request-response cycle.","middleware, Express.js",Medium
+11,"How do you handle errors in Express.js?","You can handle errors using error-handling middleware functions.","errors, Express.js, middleware",Medium
+12,"What is a React component?","A React component is a reusable piece of UI that can be functional or class-based.","React, component, UI",Easy
+13,"What is state in React?","State is an object that holds data that can change over time and determines the behavior of a component.","state, React",Easy
+14,"What is a prop in React?","Props are inputs to React components that allow data to be passed between components.","props, React, components",Easy
+15,"What is the use of useState hook in React?","The useState hook is used to manage state in functional components.","useState, React, hook",Easy
+16,"What is the virtual DOM in React?","The virtual DOM is a lightweight JavaScript representation of the real DOM.","virtual DOM, React",Medium
+17,"What is the purpose of Node Package Manager (npm)?","npm is used to manage packages and dependencies in Node.js applications.","npm, Node.js, package manager",Easy
+18,"What is the difference between REST and GraphQL?","REST is an architectural style for APIs, while GraphQL is a query language for APIs that allows fetching only required data.","REST, GraphQL, APIs, MERN",Hard
+19,"What is the purpose of React Router?","React Router is used for routing in React applications.","React, Router, routing",Easy
+20,"What is CORS, and why is it important in MERN applications?","CORS (Cross-Origin Resource Sharing) allows resources to be requested from another domain, which is crucial for client-server communication.","CORS, MERN, domain",Medium
+21,"What is the role of Babel in a MERN stack project?","Babel is a JavaScript compiler that transforms modern JavaScript into a version compatible with older environments.","Babel, JavaScript, MERN",Medium
+22,"What is the purpose of Webpack in React projects?","Webpack is a module bundler that compiles and bundles JavaScript files for deployment.","Webpack, React, bundler",Medium
+23,"How do you implement authentication in a MERN stack app?","You can use libraries like Passport.js or JWT for user authentication.","authentication, MERN, JWT, Passport.js",Hard
+24,"What is the difference between functional and class components in React?","Functional components are stateless and simpler, while class components can manage state and lifecycle methods.","React, functional components, class components",Medium
+25,"What is the purpose of Redux in a MERN stack project?","Redux is used to manage the global state of an application.","Redux, state management, MERN",Medium
+26,"What is the significance of the package.json file in a Node.js project?","The package.json file contains metadata about the project, including dependencies, scripts, and version information.","Node.js, package.json, dependencies",Easy
+27,"How does the useEffect hook work in React?","The useEffect hook allows you to perform side effects in functional components.","useEffect, React, hook",Medium
+28,"What is the purpose of the Express.js router?","The Express.js router is used to define application routes and organize request handling.","Express.js, router, routes",Medium
+29,"What is MongoDB Atlas?","MongoDB Atlas is a cloud-based database service for hosting and managing MongoDB databases.","MongoDB, Atlas, cloud, database",Medium
+30,"What is a React context?","React context provides a way to share data across components without passing props manually.","React, context, data sharing",Medium
+31,"What is the purpose of nodemon in Node.js?","Nodemon is a tool that automatically restarts the server when file changes are detected.","nodemon, Node.js, server",Easy
+32,"What is the difference between PUT and PATCH in RESTful APIs?","PUT is used to update an entire resource, while PATCH is used to partially update a resource.","PUT, PATCH, RESTful APIs",Medium
+33,"What are lifecycle methods in React class components?","Lifecycle methods are functions that allow you to control the component lifecycle, such as mounting, updating, and unmounting.","React, lifecycle methods, class components",Medium
+34,"What is the purpose of Helmet in a React application?","Helmet is used to manage the document head, including metadata, in React applications.","React, Helmet, metadata",Medium
+35,"What is the role of the ObjectId in MongoDB?","ObjectId is a unique identifier for documents in a MongoDB collection.","MongoDB, ObjectId, unique identifier",Medium
+36,"What is the difference between npm and yarn?","Both are package managers, but Yarn is known for its faster installation and deterministic dependency resolution.","npm, yarn, package managers",Medium
+37,"What is a higher-order component in React?","A higher-order component is a function that takes a component and returns a new component with added functionality.","React, higher-order component, HOC",Hard
+38,"What is the difference between stateful and stateless components?","Stateful components manage their own state, while stateless components rely on props for data.","stateful, stateless, React",Medium
+39,"What is the purpose of the async/await syntax in Node.js?","Async/await is used to handle asynchronous code more readably than using callbacks or promises.","Node.js, async, await",Medium
+40,"What is the purpose of the useRef hook in React?","The useRef hook is used to access and persist a mutable value without causing re-renders.","useRef, React, hook",Medium
+41,"What is the difference between const, let, and var in JavaScript?","const declares constants, let declares block-scoped variables, and var declares function-scoped variables.","JavaScript, const, let, var",Easy
+42,"What is the purpose of the connect function in Redux?","The connect function connects a React component to the Redux store.","Redux, connect, React, store",Medium
+43,"What is the purpose of the body-parser middleware in Express.js?","Body-parser is used to parse incoming request bodies, such as JSON or URL-encoded data.","Express.js, body-parser, middleware",Easy
+44,"What is the difference between session and token-based authentication?","Session-based authentication stores user sessions on the server, while token-based authentication stores tokens on the client.","authentication, session, token",Hard
+45,"What is the difference between a relational and a NoSQL database?","Relational databases use structured tables, while NoSQL databases use flexible, schema-less structures.","database, relational, NoSQL",Medium
+46,"What is a React Portal?","React Portals are used to render children into a DOM node outside the parent components hierarchy.","React, Portal, DOM",Hard
+47,"What is the purpose of the useMemo hook in React?","The useMemo hook is used to memoize values to improve performance in React components.","useMemo, React, performance",Medium
+48,"What is the purpose of the dotenv package in Node.js?","Dotenv loads environment variables from a .env file into process.env.","dotenv, Node.js, environment variables",Easy
+49,"What is the difference between componentDidMount and componentDidUpdate?","componentDidMount runs after the component is mounted, while componentDidUpdate runs after updates.","React, lifecycle methods, componentDidMount, componentDidUpdate",Medium
+50,"What is the purpose of cluster module in Node.js?","The cluster module is used to create child processes that share the same server port to improve performance.","Node.js, cluster, performance",Hard
+51,"What is the role of indexes in MongoDB?","Indexes improve the performance of search queries by allowing faster lookups.","MongoDB, indexes, performance",Medium
+52,"What is the purpose of PropTypes in React?","PropTypes is used to validate props passed to a React component.","React, PropTypes, validation",Easy
+53,"What is the purpose of Axios in MERN applications?","Axios is a library used to make HTTP requests from the client or server.","Axios, HTTP requests, MERN",Medium
+54,"What is the difference between synchronous and asynchronous programming?","Synchronous programming executes tasks sequentially, while asynchronous programming allows tasks to run concurrently.","synchronous, asynchronous, programming",Medium
+55,"What is the role of the spread operator in JavaScript?","The spread operator is used to expand iterable objects like arrays into individual elements.","JavaScript, spread operator, array",Easy
+56,"What is the purpose of useReducer hook in React?","The useReducer hook is used for complex state management in functional components.","useReducer, React, state management",Medium
+57,"What is the difference between CSS and CSS-in-JS in React?","CSS is external styling, while CSS-in-JS embeds styles directly in JavaScript.","React, CSS, CSS-in-JS",Medium
+58,"What is the purpose of the EventEmitter class in Node.js?","The EventEmitter class is used to create and handle custom events.","Node.js, EventEmitter, events",Medium
+59,"What is a single-page application (SPA)?","A SPA is a web application that loads a single HTML page and dynamically updates the content.","SPA, single-page application, React",Easy
+60,"What is the purpose of lazy loading in React?","Lazy loading is used to load components or resources on demand to improve performance.","React, lazy loading, performance",Medium
+61,"What is the role of the package-lock.json file?","The package-lock.json file ensures consistent dependency versions across environments.","Node.js, package-lock.json, dependencies",Medium
+62,"What is the difference between render and hydrate in React?","Render is used for rendering React elements, while hydrate is used for server-side rendering.","React, render, hydrate, SSR",Hard
+63,"What is the purpose of the fetch API in JavaScript?","The fetch API is used to make HTTP requests in JavaScript.","fetch, API, HTTP requests",Easy
+64,"What is the purpose of the useContext hook in React?","The useContext hook is used to access context data in functional components.","useContext, React, context",Medium
+65,"What is the difference between React.memo and useMemo?","React.memo is used to memoize components, while useMemo is used to memoize values.","React, memo, useMemo",Medium
+66,"What is the purpose of the asyncHandler function in Express.js?","The asyncHandler function is used to wrap asynchronous route handlers to handle errors.","Express.js, asyncHandler, errors",Medium
+67,"What is the difference between cluster and worker threads in Node.js?","Cluster creates child processes, while worker threads run in the same process.","Node.js, cluster, worker threads",Hard
+68,"What is the role of the context API in React?","The context API is used to manage global state without prop drilling.","React, context API, state",Medium
+69,"What is the purpose of a proxy server in a MERN application?","A proxy server is used to forward client requests to the server, often for API requests.","proxy, MERN, server, API",Medium
+70,"What is the difference between npm install and npm ci?","npm install installs dependencies, while npm ci installs exact versions from the package-lock.json file.","npm, install, ci",Medium
+71,"What is the purpose of the fs module in Node.js?","The fs module is used to handle file system operations in Node.js.","fs module, Node.js, file system",Easy
+72,"What is a shadow DOM?","The shadow DOM is a browser API for encapsulating styles and DOM structure.","shadow DOM, encapsulation, styles",Hard
+73,"What is the difference between map and forEach in JavaScript?","map returns a new array, while forEach iterates over elements without returning anything.","map, forEach, JavaScript",Easy
+74,"What is the purpose of webpack-dev-server?","webpack-dev-server provides a development server for Webpack projects.","Webpack, dev server, development",Medium
+75,"What is the purpose of Reacts useLayoutEffect hook?","useLayoutEffect is similar to useEffect but fires synchronously after all DOM mutations.","useLayoutEffect, React, DOM",Hard
+76,"What is the difference between static and dynamic imports in JavaScript?","Static imports are loaded at compile time, while dynamic imports are loaded at runtime.","static import, dynamic import, JavaScript",Medium
+77,"What is the purpose of the crypto module in Node.js?","The crypto module is used for cryptographic operations like hashing and encryption.","crypto, Node.js, encryption",Hard
+78,"What is a controlled component in React?","A controlled component is a form element whose value is controlled by React state.","React, controlled component, form",Medium
+79,"What is the purpose of the net module in Node.js?","The net module is used to create TCP servers and clients.","net module, Node.js, TCP",Hard
+80,"What is the difference between a promise and an observable?","A promise handles a single event, while an observable handles a stream of events.","promise, observable, JavaScript",Hard
+81,"What is the role of the React Fragment?","React Fragment allows grouping of multiple elements without adding extra nodes to the DOM.","React, Fragment, DOM",Easy
+82,"What is server-side rendering (SSR) in React?","SSR is the process of rendering React components on the server and sending HTML to the client.","React, server-side rendering, SSR",Medium
+83,"What is the purpose of the buffer module in Node.js?","The buffer module is used to handle binary data in Node.js.","buffer, Node.js, binary",Medium

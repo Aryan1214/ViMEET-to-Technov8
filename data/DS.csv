@@ -1,0 +1,59 @@
+QuestionID,Question,Answer,Keywords,DifficultyLevel
+1,"What is Data Science?","Data Science is an interdisciplinary field focused on extracting knowledge and insights from structured and unstructured data.","Data Science, Definition, Interdisciplinary",Easy
+2,"What are the key steps in a Data Science project?","Key steps include data collection, data cleaning, exploratory data analysis, model building, and evaluation.","Data Science, Steps, Project Workflow",Easy
+3,"Name three popular tools used in Data Science.","Python, R, and SQL are popular tools used in Data Science.","Data Science, Tools, Python, R, SQL",Easy
+4,"What is the role of a Data Scientist?","A Data Scientist analyzes and interprets complex data to help organizations make better decisions.","Data Scientist, Role, Analyze Data",Easy
+5,"Define supervised learning in the context of Data Science.","Supervised learning is a type of machine learning where the model is trained on labeled data.","Supervised Learning, Machine Learning, Labeled Data",Medium
+6,"What is the difference between supervised and unsupervised learning?","Supervised learning uses labeled data, while unsupervised learning works with unlabeled data to find patterns.","Supervised Learning, Unsupervised Learning, Machine Learning",Medium
+7,"What is a data pipeline?","A data pipeline is a series of data processing steps that move data from source to destination.","Data Pipeline, Data Processing, Workflow",Medium
+8,"Explain the importance of data cleaning.","Data cleaning ensures accuracy and quality by removing or correcting corrupt or inaccurate data.","Data Cleaning, Accuracy, Quality",Easy
+9,"What is feature engineering?","Feature engineering involves creating new input features or modifying existing ones to improve model performance.","Feature Engineering, Model Performance",Medium
+10,"What is the curse of dimensionality?","The curse of dimensionality refers to the challenges that arise when analyzing data with too many features.","Curse of Dimensionality, Features, Challenges",Hard
+11,"Explain overfitting in machine learning models.","Overfitting occurs when a model learns the training data too well, capturing noise and losing generalization.","Overfitting, Machine Learning, Model Generalization",Medium
+12,"How do you handle missing data in a dataset?","You can handle missing data by imputation, removing affected rows, or using models that tolerate missing values.","Missing Data, Imputation, Dataset",Medium
+13,"What is data normalization?","Normalization is scaling data to fit within a specific range, improving model performance.","Data Normalization, Scaling, Preprocessing",Easy
+14,"What is the purpose of exploratory data analysis (EDA)?","EDA is used to summarize main characteristics of the data and uncover patterns or anomalies.","Exploratory Data Analysis, EDA, Patterns, Anomalies",Easy
+15,"What is the difference between classification and regression?","Classification predicts categories, while regression predicts continuous values.","Classification, Regression, Machine Learning",Easy
+16,"What is cross-validation?","Cross-validation is a technique for assessing how a model will generalize to an independent dataset.","Cross-Validation, Model Assessment, Generalization",Medium
+17,"Define bias and variance in machine learning.","Bias is the error due to overly simplistic models, while variance is the error due to overly complex models.","Bias, Variance, Machine Learning",Medium
+18,"What is a confusion matrix?","A confusion matrix is a table used to evaluate the performance of a classification model.","Confusion Matrix, Classification, Model Evaluation",Easy
+19,"What is the F1 score?","The F1 score is the harmonic mean of precision and recall, used to evaluate classification models.","F1 Score, Precision, Recall, Classification",Medium
+20,"What is data wrangling?","Data wrangling is the process of cleaning and organizing raw data into a usable format.","Data Wrangling, Data Cleaning, Organization",Easy
+21,"What is big data?","Big data refers to large, complex datasets that traditional data processing tools cannot handle.","Big Data, Large Datasets, Complexity",Easy
+22,"Name some common big data technologies.","Hadoop, Spark, and Hive are common big data technologies.","Big Data, Technologies, Hadoop, Spark, Hive",Easy
+23,"What is the difference between structured and unstructured data?","Structured data is organized in tables, while unstructured data includes formats like text, images, and videos.","Structured Data, Unstructured Data, Formats",Medium
+24,"What is a recommendation system?","A recommendation system suggests items to users based on their preferences or behavior.","Recommendation System, Suggestions, Preferences",Easy
+25,"What is text mining?","Text mining is the process of deriving meaningful information from textual data.","Text Mining, Information Extraction, Textual Data",Easy
+26,"Explain clustering in Data Science.","Clustering is grouping similar data points together based on their characteristics.","Clustering, Data Science, Grouping",Easy
+27,"What is a decision tree?","A decision tree is a model used for classification and regression tasks, resembling a tree structure.","Decision Tree, Classification, Regression",Medium
+28,"What is ensemble learning?","Ensemble learning combines multiple models to improve overall performance.","Ensemble Learning, Model Combination, Performance",Medium
+29,"Explain the term A/B testing.","A/B testing is a statistical method for comparing two versions of a variable to determine which performs better.","A/B Testing, Statistical Method, Comparison",Easy
+30,"What is a neural network?","A neural network is a computational model inspired by the human brain, used for complex data patterns.","Neural Network, Computational Model, Human Brain",Medium
+31,"What is the role of a feature in a dataset?","Features are individual measurable properties or variables of a dataset.","Features, Dataset, Variables",Easy
+32,"What is a heatmap in Data Science?","A heatmap is a graphical representation of data where values are depicted using color intensity.","Heatmap, Graphical Representation, Data Visualization",Easy
+33,"What is data visualization?","Data visualization involves creating graphical representations of data to identify trends and patterns.","Data Visualization, Trends, Patterns",Easy
+34,"What is the purpose of a histogram?","A histogram is used to show the frequency distribution of a dataset.","Histogram, Frequency Distribution, Dataset",Easy
+35,"What is the k-nearest neighbors algorithm?","K-nearest neighbors is a simple algorithm that classifies data based on the closest training examples.","K-Nearest Neighbors, Algorithm, Classification",Easy
+36,"What is a support vector machine?","A support vector machine is a supervised learning algorithm used for classification and regression tasks.","Support Vector Machine, Classification, Regression",Medium
+37,"What is a time series analysis?","Time series analysis involves analyzing data points collected or recorded at specific time intervals.","Time Series Analysis, Data Points, Time Intervals",Medium
+38,"What is the role of probability in Data Science?","Probability helps in making predictions and decisions based on data.","Probability, Predictions, Decisions",Easy
+39,"What is a correlation coefficient?","A correlation coefficient measures the strength and direction of a linear relationship between two variables.","Correlation Coefficient, Relationship, Variables",Easy
+40,"What is dimensionality reduction?","Dimensionality reduction is the process of reducing the number of features in a dataset while retaining its important information.","Dimensionality Reduction, Features, Dataset",Medium
+41,"Explain PCA in Data Science.","Principal Component Analysis (PCA) is a dimensionality reduction technique that transforms data into a set of orthogonal components.","PCA, Dimensionality Reduction, Principal Component",Medium
+42,"What is over-sampling in data handling?","Over-sampling is a technique used to balance the class distribution by increasing the number of samples in the minority class.","Over-sampling, Data Handling, Class Distribution",Medium
+43,"What is under-sampling?","Under-sampling reduces the number of samples in the majority class to balance class distribution.","Under-sampling, Data Handling, Class Distribution",Medium
+44,"What is a box plot?","A box plot is a graphical representation used to display the distribution, median, and variability of data.","Box Plot, Data Distribution, Variability",Easy
+45,"What is an outlier?","An outlier is a data point significantly different from the others in the dataset.","Outlier, Data Point, Anomaly",Easy
+46,"Explain tokenization in text analysis.","Tokenization is the process of splitting text into smaller units such as words or phrases.","Tokenization, Text Analysis, Splitting",Medium
+47,"What is stemming?","Stemming reduces words to their root form by removing suffixes.","Stemming, Text Processing, Root Form",Medium
+48,"What is lemmatization?","Lemmatization reduces words to their base or dictionary form, considering the context.","Lemmatization, Text Processing, Base Form",Medium
+49,"What is a random forest?","Random forest is an ensemble learning method that combines multiple decision trees for classification or regression tasks.","Random Forest, Decision Tree, Ensemble",Medium
+50,"What is the bagging technique?","Bagging, or Bootstrap Aggregating, is an ensemble technique that improves model accuracy by combining predictions from multiple models.","Bagging, Ensemble, Bootstrap Aggregating",Medium
+51,"What is boosting in machine learning?","Boosting is an ensemble technique that converts weak models into strong models by sequentially training them.","Boosting, Ensemble, Weak Models",Medium
+52,"What is the k-means algorithm?","K-means is a clustering algorithm that partitions data into k distinct groups based on feature similarity.","K-means, Clustering, Partitioning",Easy
+53,"What is the role of an activation function in neural networks?","An activation function determines the output of a neuron and introduces non-linearity into the model.","Activation Function, Neural Networks, Non-linearity",Medium
+54,"What is hyperparameter tuning?","Hyperparameter tuning involves selecting the best configuration of hyperparameters to optimize model performance.","Hyperparameter Tuning, Optimization, Model Performance",Medium
+55,"What is a ROC curve?","A Receiver Operating Characteristic (ROC) curve shows the performance of a classification model at different thresholds.","ROC Curve, Performance, Classification",Medium
+56,"What is precision in model evaluation?","Precision is the ratio of true positive predictions to the total positive predictions made by the model.","Precision, Model Evaluation, True Positive",Medium
+57,"What is recall?","Recall is the ratio of true positive predictions to the total actual positives in the dataset.","Recall, Model Evaluation, True Positive",Medium
+58,"What is the difference between batch and online learning?","Batch learning trains models on the entire dataset at once, while online learning updates the model incrementally as data arrives.","Batch Learning, Online Learning, Model Training",Medium

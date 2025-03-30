@@ -1,0 +1,64 @@
+QuestionID,Question,Answer,Keywords,DifficultyLevel
+1,"What is the unit of capacitance?",Farad,"Capacitance, Unit, Farad",Easy
+2,"What is the formula for Ohm's Law?","V = IR","Ohm's Law, Voltage, Current, Resistance",Easy
+3,"Name the modulation technique used in AM radio.","Amplitude Modulation","AM, Modulation, Radio",Easy
+4,"What is the full form of PCB?","Printed Circuit Board","PCB, Electronics",Easy
+5,"Which semiconductor is most commonly used in electronics?",Silicon,"Semiconductor, Silicon",Easy
+6,"What is the frequency range of human hearing?","20 Hz to 20 kHz","Frequency, Human Hearing, Audio",Easy
+7,"What is Nyquist theorem used for?","Determining the sampling rate for digital signals.","Nyquist, Sampling Rate, Digital Signals",Medium
+8,"What is the function of a diode?","Allows current to flow in one direction only.","Diode, Electronics, Current Flow",Easy
+9,"Define bandwidth in communication systems.","Bandwidth is the range of frequencies over which a system operates.","Bandwidth, Frequency, Communication",Medium
+10,"What is the main purpose of a transformer?","To change the voltage level in AC circuits.","Transformer, Voltage, AC",Easy
+11,"What is the typical range of operating frequency for Wi-Fi?","2.4 GHz and 5 GHz","Wi-Fi, Frequency, Communication",Medium
+12,"What does FFT stand for?","Fast Fourier Transform","FFT, Fourier, Signal Processing",Easy
+13,"What is an antenna's radiation pattern?","The spatial distribution of radiated energy.","Antenna, Radiation Pattern, Energy",Medium
+14,"Name one application of Zigbee technology.","Home automation.","Zigbee, Home Automation, IoT",Easy
+15,"What is the role of a microcontroller?","It controls electronic devices using embedded programs.","Microcontroller, Embedded, Devices",Medium
+16,"Define noise figure in communication systems.","The measure of degradation of the signal-to-noise ratio (SNR).","Noise Figure, SNR, Communication",Medium
+17,"What is the gain of an amplifier?","The ratio of output signal to input signal.","Gain, Amplifier, Electronics",Easy
+18,"What is the function of a multiplexer?","Combines multiple input signals into a single output.","Multiplexer, Signals, Electronics",Medium
+19,"What is the function of an operational amplifier?","Performs mathematical operations such as addition and integration.","Operational Amplifier, Electronics, Operations",Medium
+20,"Name a material used for PCB substrate.",FR4,"PCB, Substrate, FR4",Easy
+21,"What is a decibel (dB)?","A logarithmic unit to measure ratios.","Decibel, dB, Ratios",Easy
+22,"What is Shannon's Theorem about?","The maximum data rate of a channel without error.","Shannon, Data Rate, Channel",Hard
+23,"What is the function of a PLL circuit?","Phase-locked loop for frequency synchronization.","PLL, Frequency, Synchronization",Medium
+24,"What does CMOS stand for?","Complementary Metal-Oxide-Semiconductor","CMOS, Electronics",Easy
+25,"What is the primary advantage of optical fiber communication?","High bandwidth and low signal loss.","Optical Fiber, Bandwidth, Communication",Medium
+26,"What is the purpose of a rectifier?","To convert AC to DC.","Rectifier, AC, DC",Easy
+27,"What is Doppler effect in communication?","The change in frequency due to relative motion.","Doppler, Frequency, Motion",Medium
+28,"What is a transducer?","A device that converts one form of energy into another.","Transducer, Energy, Conversion",Easy
+29,"Define Q factor in resonant circuits.","The ratio of stored energy to energy lost per cycle.","Q Factor, Resonant Circuits",Medium
+30,"What is the frequency of standard GSM mobile communication?","900 MHz and 1800 MHz","GSM, Frequency, Mobile",Medium
+31,"What is meant by impedance matching?","Ensuring maximum power transfer between circuits.","Impedance Matching, Power Transfer",Medium
+32,"What is the purpose of an oscillator?","To generate periodic waveforms.","Oscillator, Waveforms, Electronics",Medium
+33,"What is BER in digital communication?","Bit Error Rate","BER, Digital Communication",Medium
+34,"What is VSWR?","Voltage Standing Wave Ratio, measures impedance matching.","VSWR, Impedance, Ratio",Hard
+35,"What is MIMO in wireless communication?","Multiple-Input Multiple-Output technology for higher throughput.","MIMO, Wireless, Throughput",Hard
+36,"What is the key feature of 5G networks?","High speed, low latency, and massive connectivity.","5G, Networks, Speed",Medium
+37,"What is the purpose of an LNA in RF systems?","Low Noise Amplifier to amplify weak signals.","LNA, RF, Amplifier",Medium
+38,"Define Fourier Transform.","A mathematical tool to analyze signal frequencies.","Fourier Transform, Signal, Frequencies",Medium
+39,"What is the use of a balun?","Balance-to-unbalance signal conversion.","Balun, Signal Conversion",Medium
+40,"What is the function of an ADC?","Analog-to-Digital Converter converts analog signals to digital.","ADC, Converter, Signals",Easy
+41,"What is modulation?","The process of varying one or more properties of a carrier signal.","Modulation, Carrier Signal, Communication",Medium
+42,"What is SNR?","Signal-to-Noise Ratio, a measure of signal clarity.","SNR, Noise, Signal",Medium
+43,"What is amplitude modulation?","Varying the amplitude of the carrier signal according to the message signal.","AM, Modulation, Amplitude",Medium
+44,"What is a low-pass filter?","A circuit that passes low-frequency signals and attenuates high-frequency signals.","Low-pass Filter, Frequency, Signals",Easy
+45,"What is GSM?","Global System for Mobile Communications.","GSM, Mobile, Communication",Easy
+46,"What is the use of a Smith Chart?","To analyze impedance and reflection coefficients.","Smith Chart, Impedance, Reflection",Hard
+47,"What is phase modulation?","Modulating the phase of the carrier signal based on the message signal.","PM, Phase Modulation, Signal",Medium
+48,"What is a signal?","A function that conveys information about phenomena.","Signal, Information, Phenomena",Easy
+49,"What is quantization in signal processing?","The process of converting a continuous range of values into discrete levels.","Quantization, Signal Processing, Levels",Medium
+50,"What is aliasing?","Distortion caused by undersampling a signal.","Aliasing, Signal, Sampling",Medium
+51,"What is the purpose of a repeater?","To amplify and retransmit signals.","Repeater, Amplify, Signals",Easy
+52,"What is diversity in wireless communication?","Using multiple antennas to improve signal quality.","Diversity, Wireless, Antennas",Hard
+53,"What is the use of a waveguide?","To direct electromagnetic waves.","Waveguide, Electromagnetic Waves",Medium
+54,"What is meant by directivity of an antenna?","The measure of how focused the antenna's radiation pattern is.","Directivity, Antenna, Radiation",Medium
+55,"What is ISM band?","Industrial, Scientific, and Medical frequency bands.","ISM, Frequency, Band",Easy
+56,"What is an electric dipole?","A pair of equal and opposite charges separated by a distance.","Electric Dipole, Charges, Separation",Easy
+57,"What is free-space path loss?","Signal attenuation due to distance in free space.","Free-space Path Loss, Signal, Distance",Medium
+58,"What is the role of a power amplifier?","To boost the power of a signal.","Power Amplifier, Signal, Boost",Easy
+59,"What is a feedback oscillator?","An oscillator that uses feedback to maintain oscillation.","Feedback Oscillator, Oscillation, Feedback",Medium
+60,"What is the difference between FDMA and TDMA?","FDMA uses frequency division, TDMA uses time division.","FDMA, TDMA, Communication",Medium
+61,"What is the role of a spectrum analyzer?","To analyze signal frequencies.","Spectrum Analyzer, Signal, Frequencies",Easy
+62,"What is ISDN?","Integrated Services Digital Network.","ISDN, Digital Network",Easy
+63,"What is orthogonality in communication?","Signals that are mutually independent.","Orthogonality, Signals, Communication",Hard

@@ -1,0 +1,84 @@
+QuestionID,Question,Answer,Keywords,DifficultyLevel
+1,"What does HTML stand for?","HyperText Markup Language","HTML, markup language",Easy
+2,"What is the purpose of CSS?","CSS is used to style and layout web pages.","CSS, styling, layout",Easy
+3,"What does HTTP stand for?","HyperText Transfer Protocol","HTTP, protocol",Easy
+4,"What is the default port for HTTP?","The default port for HTTP is 80.","HTTP, port",Easy
+5,"What is the difference between ID and Class in CSS?","ID is unique for an element, while class can be reused for multiple elements.","CSS, ID, class",Medium
+6,"What does DOM stand for?","DOM stands for Document Object Model.","DOM, document object model",Easy
+7,"What is the purpose of JavaScript?","JavaScript is used to create dynamic and interactive web content.","JavaScript, dynamic, interactive",Easy
+8,"What is a responsive web design?","Responsive design ensures a website adapts to various screen sizes.","responsive design, screen sizes",Medium
+9,"What is the difference between inline, block, and inline-block elements?","Inline does not start on a new line, block starts on a new line, and inline-block combines both behaviors.","CSS, inline, block",Medium
+10,"What is the function of <meta> tags in HTML?","Meta tags provide metadata about the HTML document.","HTML, meta tags, metadata",Medium
+11,"What is the box model in CSS?","The box model consists of margins, borders, padding, and the content.","CSS, box model, margin, padding",Medium
+12,"What is a CSS preprocessor?","A CSS preprocessor is a scripting language that extends CSS with variables and functions.","CSS, preprocessor, Sass, Less",Medium
+13,"What are pseudo-classes in CSS?","Pseudo-classes define the special state of an element.","CSS, pseudo-classes",Medium
+14,"What is the difference between GET and POST methods in HTTP?","GET retrieves data from a server, while POST submits data to a server.","HTTP, GET, POST",Medium
+15,"What is a RESTful API?","RESTful API follows REST principles to interact with resources.","API, REST, RESTful",Medium
+16,"What is the difference between localStorage and sessionStorage?","localStorage stores data with no expiration, sessionStorage stores data for the session.","localStorage, sessionStorage, web storage",Medium
+17,"What is AJAX?","AJAX allows asynchronous data exchange between a web page and a server.","AJAX, asynchronous, server",Medium
+18,"What is the purpose of the <canvas> element in HTML5?","<canvas> is used for drawing graphics via JavaScript.","HTML5, canvas, graphics",Medium
+19,"What is the difference between <section> and <div> in HTML5?","<section> defines a thematic grouping of content, while <div> is a generic container.","HTML5, section, div",Medium
+20,"What is the purpose of the <header> element in HTML5?","<header> represents introductory content or navigational links.","HTML5, header, navigation",Easy
+21,"What is the difference between <strong> and <b> tags in HTML?","<strong> gives semantic importance, while <b> is purely visual.","HTML, strong, bold",Medium
+22,"What is the role of media queries in CSS?","Media queries make designs responsive by applying styles based on device properties.","CSS, media queries, responsive",Medium
+23,"What is the purpose of the <footer> element in HTML5?","<footer> represents footer content for its nearest sectioning content.","HTML5, footer",Easy
+24,"What is the difference between relative, absolute, and fixed positioning in CSS?","Relative positions elements relative to their normal position, absolute positions them relative to the nearest positioned ancestor, and fixed positions them relative to the viewport.","CSS, positioning, relative, absolute, fixed",Hard
+25,"What are web components?","Web components are reusable custom elements with encapsulated functionality.","web components, custom elements",Medium
+26,"What is the purpose of the <nav> element in HTML5?","<nav> defines a set of navigation links.","HTML5, nav, navigation",Easy
+27,"What is the viewport meta tag?","The viewport meta tag controls the layout and scaling of the web page on mobile devices.","HTML, viewport, meta tag",Medium
+28,"What is a CSS Grid?","CSS Grid is a layout system for designing web pages using a grid structure.","CSS, grid, layout",Medium
+29,"What is flexbox in CSS?","Flexbox is a layout model for arranging items along one axis.","CSS, flexbox, layout",Medium
+30,"What is the difference between inline and internal CSS?","Inline CSS is applied directly within an element, while internal CSS is placed within the <style> tag in the <head>.","CSS, inline, internal",Easy
+31,"What is the purpose of the <script> tag in HTML?","<script> is used to embed or reference JavaScript in a web page.","HTML, script, JavaScript",Easy
+32,"What are CSS animations?","CSS animations allow animation of HTML elements without JavaScript.","CSS, animations, HTML",Medium
+33,"What are semantic tags in HTML?","Semantic tags clearly define their content, such as <article>, <section>, and <header>.","HTML, semantic tags",Medium
+34,"What is a favicon?","A favicon is a small icon displayed in the browser tab.","HTML, favicon, icon",Easy
+35,"What is the difference between synchronous and asynchronous programming?","Synchronous executes tasks sequentially, while asynchronous allows tasks to run concurrently.","JavaScript, synchronous, asynchronous",Hard
+36,"What is cross-origin resource sharing (CORS)?","CORS is a mechanism to allow restricted resources to be requested from another domain.","CORS, cross-origin, resources",Hard
+37,"What is the difference between cookies and localStorage?","Cookies are sent with every HTTP request; localStorage is not.","cookies, localStorage",Medium
+38,"What is the difference between em and rem in CSS?","em is relative to the parent element, rem is relative to the root element.","CSS, em, rem",Medium
+39,"What is progressive web app (PWA)?","A PWA is a web application that uses modern web technologies to deliver a native app-like experience.","PWA, progressive web app",Medium
+40,"What are CSS transitions?","CSS transitions allow property changes to occur over a duration.","CSS, transitions",Medium
+41,"What is the difference between padding and margin in CSS?","Padding is the space inside an element, while margin is the space outside.","CSS, padding, margin",Easy
+42,"What is a JavaScript framework?","A JavaScript framework is a collection of pre-written code to simplify development.","JavaScript, framework",Medium
+43,"What is the difference between == and === in JavaScript?","== checks for equality after type conversion, === checks for strict equality.","JavaScript, equality, operators",Medium
+44,"What is the purpose of the <title> tag in HTML?","<title> defines the title of the document shown in the browser tab.","HTML, title",Easy
+45,"What is JSON?","JSON is a lightweight data-interchange format.","JSON, data, format",Easy
+46,"What is a callback function in JavaScript?","A callback is a function passed as an argument to another function.","JavaScript, callback",Medium
+47,"What are the different HTTP status codes?","HTTP status codes indicate responses, like 200 for success, 404 for not found, and 500 for server error.","HTTP, status codes",Medium
+48,"What is Node.js?","Node.js is a runtime for running JavaScript on the server side.","Node.js, runtime, server",Medium
+49,"What is the difference between var, let, and const in JavaScript?","var is function-scoped, let and const are block-scoped, and const is immutable.","JavaScript, var, let, const",Medium
+50,"What is an API?","An API is a set of rules that allows communication between software programs.","API, communication",Easy
+51,"What is the purpose of npm?","npm is a package manager for JavaScript.","npm, package manager, JavaScript",Medium
+52,"What is a web server?","A web server stores and delivers web pages to users.","web server, HTTP",Easy
+53,"What is the difference between inline and external JavaScript?","Inline JavaScript is embedded in HTML elements, while external JavaScript is stored in separate files.","JavaScript, inline, external",Medium
+54,"What is Bootstrap?","Bootstrap is a CSS framework for developing responsive and mobile-first websites.","Bootstrap, CSS framework",Easy
+55,"What is the DOMContentLoaded event in JavaScript?","DOMContentLoaded fires when the initial HTML document is loaded and parsed.","JavaScript, DOMContentLoaded",Medium
+56,"What are web sockets?","Web sockets enable two-way interactive communication between a browser and a server.","web sockets, communication",Medium
+57,"What is a CDN?","A CDN is a network of servers to deliver content faster based on user location.","CDN, content delivery network",Medium
+58,"What is the purpose of the <aside> tag in HTML?","<aside> is used for content that is tangentially related to the main content.","HTML, aside, content",Medium
+59,"What is the difference between <ol> and <ul> in HTML?","<ol> creates an ordered list, and <ul> creates an unordered list.","HTML, list, ordered, unordered",Easy
+60,"What is the z-index in CSS?","z-index determines the stack order of elements.","CSS, z-index",Medium
+61,"What is the difference between HTTP and HTTPS?","HTTPS is HTTP with encryption for secure communication.","HTTP, HTTPS, secure",Medium
+62,"What is the purpose of the <link> tag in HTML?","<link> is used to link external resources, like stylesheets.","HTML, link, resources",Easy
+63,"What is a session in web development?","A session is a way to store user data across multiple pages.","session, user data",Medium
+64,"What is the purpose of the <article> tag in HTML?","<article> represents self-contained content.","HTML, article",Easy
+65,"What are service workers in web development?","Service workers run in the background and enable offline functionality.","service workers, offline, background",Hard
+66,"What is the difference between a static and dynamic website?","Static websites serve the same content, while dynamic websites generate content based on user interaction.","static, dynamic, website",Medium
+67,"What is the difference between PUT and PATCH HTTP methods?","PUT updates a resource entirely, while PATCH applies partial updates.","HTTP, PUT, PATCH",Hard
+68,"What is the purpose of the <main> tag in HTML5?","<main> specifies the main content of a document.","HTML5, main",Easy
+69,"What is the Content Security Policy (CSP)?","CSP helps prevent cross-site scripting and data injection attacks.","CSP, security, XSS",Hard
+70,"What is the purpose of the <time> tag in HTML?","<time> represents a specific point in time.","HTML, time",Medium
+71,"What is a framework?","A framework is a platform for developing applications with pre-written code.","framework, platform",Medium
+72,"What is the difference between a tag and an attribute in HTML?","A tag defines an element, while an attribute provides additional information.","HTML, tag, attribute",Easy
+73,"What is the purpose of the <figure> tag in HTML?","<figure> is used to group media and captions.","HTML, figure, media, captions",Medium
+74,"What is a CSS variable?","A CSS variable stores reusable values throughout a stylesheet.","CSS, variable",Medium
+75,"What is an event listener in JavaScript?","An event listener is a function that waits for and responds to events.","JavaScript, event listener",Medium
+76,"What is a promise in JavaScript?","A promise represents a value that may be available in the future.","JavaScript, promise",Medium
+77,"What is a shadow DOM?","Shadow DOM provides encapsulated DOM and styling for web components.","shadow DOM, encapsulation",Hard
+78,"What is the purpose of the <code> tag in HTML?","<code> is used to define a piece of computer code.","HTML, code",Easy
+79,"What is TypeScript?","TypeScript is a superset of JavaScript that adds static typing.","TypeScript, JavaScript, static typing",Medium
+80,"What is the difference between frontend and backend development?","Frontend development deals with the user interface, while backend focuses on server-side logic.","frontend, backend, development",Medium
+81,"What is WebAssembly?","WebAssembly is a binary instruction format for a stack-based virtual machine.","WebAssembly, binary, virtual machine",Hard
+82,"What is an iframe in HTML?","An iframe is used to embed another HTML document within a page.","HTML, iframe, embed",Easy
+83,"What is the purpose of the <abbr> tag in HTML?","<abbr> is used to define an abbreviation or acronym.","HTML, abbr, abbreviation",Medium

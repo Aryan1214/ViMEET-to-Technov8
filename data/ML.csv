@@ -1,0 +1,98 @@
+QuestionID,Question,Answer,Keywords,DifficultyLevel
+1,"What is Machine Learning?","Machine Learning is a subset of AI that enables systems to learn from data without being explicitly programmed.","Machine Learning, AI, learn, data",Easy
+2,"Name a type of supervised learning algorithm.","Linear Regression is a type of supervised learning algorithm.","Supervised Learning, Linear Regression",Easy
+3,"What is unsupervised learning?","Unsupervised learning finds hidden patterns in data without labeled outcomes.","Unsupervised Learning, patterns, unlabeled",Easy
+4,"What is a decision tree?","A decision tree is a flowchart-like structure used for classification and regression tasks.","Decision Tree, classification, regression",Easy
+5,"Explain overfitting in Machine Learning.","Overfitting occurs when a model performs well on training data but poorly on unseen data.","Overfitting, model, training data",Medium
+6,"What is underfitting?","Underfitting happens when a model is too simple to capture the underlying data patterns.","Underfitting, model, patterns",Medium
+7,"What is a confusion matrix?","A confusion matrix is a table used to evaluate the performance of a classification model.","Confusion Matrix, classification, evaluation",Easy
+8,"What is precision?","Precision is the ratio of true positives to the sum of true and false positives.","Precision, true positives, ratio",Medium
+9,"What is recall?","Recall is the ratio of true positives to the sum of true positives and false negatives.","Recall, true positives, false negatives",Medium
+10,"What is F1 Score?","The F1 Score is the harmonic mean of precision and recall.","F1 Score, precision, recall, harmonic mean",Medium
+11,"What is the purpose of feature scaling?","Feature scaling ensures that all features contribute equally to the model by normalizing their values.","Feature Scaling, normalization",Medium
+12,"What are common methods for feature scaling?","Min-Max Scaling and Standardization are common methods.","Min-Max Scaling, Standardization",Medium
+13,"What is cross-validation?","Cross-validation is a technique for assessing the performance of a model by partitioning the data.","Cross-validation, model assessment",Medium
+14,"What is the bias-variance tradeoff?","The bias-variance tradeoff is the balance between underfitting and overfitting in a model.","Bias-Variance, tradeoff, underfitting, overfitting",Medium
+15,"Name a commonly used loss function.","Mean Squared Error (MSE) is commonly used for regression tasks.","Loss Function, Mean Squared Error, regression",Easy
+16,"What is Gradient Descent?","Gradient Descent is an optimization algorithm used to minimize the loss function.","Gradient Descent, optimization, loss",Medium
+17,"What is stochastic gradient descent?","Stochastic Gradient Descent updates the model parameters using one data point at a time.","Stochastic Gradient Descent, optimization, parameters",Medium
+18,"What is reinforcement learning?","Reinforcement learning trains an agent to take actions that maximize cumulative reward.","Reinforcement Learning, agent, actions, reward",Medium
+19,"What is an epoch in ML?","An epoch is one complete pass through the entire training dataset.","Epoch, training dataset",Easy
+20,"What is a hyperparameter?","A hyperparameter is a parameter set before the learning process begins.","Hyperparameter, parameter, learning process",Easy
+21,"What is a support vector machine?","A support vector machine is a supervised learning algorithm used for classification and regression.","Support Vector Machine, classification, regression",Medium
+22,"What is the kernel trick in SVM?","The kernel trick allows SVM to operate in a higher-dimensional space.","Kernel Trick, SVM, dimensionality",Hard
+23,"What is PCA?","Principal Component Analysis (PCA) is a technique for reducing the dimensionality of data.","PCA, dimensionality reduction",Medium
+24,"What is regularization?","Regularization adds a penalty term to the loss function to prevent overfitting.","Regularization, penalty, loss function",Medium
+25,"What is L1 regularization?","L1 regularization adds the absolute value of coefficients as a penalty to the loss function.","L1 Regularization, penalty, coefficients",Hard
+26,"What is L2 regularization?","L2 regularization adds the square of coefficients as a penalty to the loss function.","L2 Regularization, penalty, coefficients",Hard
+27,"What is dropout in neural networks?","Dropout is a technique for preventing overfitting by randomly disabling neurons during training.","Dropout, neural networks, overfitting",Medium
+28,"What is bagging?","Bagging is an ensemble method that combines multiple models to reduce variance.","Bagging, ensemble, variance",Medium
+29,"What is boosting?","Boosting is an ensemble method that combines weak models to create a strong model.","Boosting, ensemble, weak models",Medium
+30,"What is XGBoost?","XGBoost is a scalable and efficient gradient boosting library.","XGBoost, gradient boosting, library",Medium
+31,"What is the difference between parametric and non-parametric models?","Parametric models have a fixed number of parameters, while non-parametric models grow with data.","Parametric, Non-Parametric, parameters",Hard
+32,"What is the curse of dimensionality?","The curse of dimensionality refers to challenges that arise when working with high-dimensional data.","Curse of Dimensionality, high-dimensional data",Medium
+33,"What is a convolutional neural network?","A CNN is a type of neural network designed for image processing tasks.","CNN, neural network, image processing",Medium
+34,"What is a recurrent neural network?","A RNN is a type of neural network designed for sequential data.","RNN, neural network, sequential data",Medium
+35,"What is transfer learning?","Transfer learning involves reusing a pre-trained model on a new task.","Transfer Learning, pre-trained model, task",Medium
+36,"What is an activation function?","An activation function introduces non-linearity into a neural network.","Activation Function, non-linearity, neural network",Easy
+37,"What is the sigmoid activation function?","The sigmoid activation function maps inputs to a range between 0 and 1.","Sigmoid, activation function, range",Easy
+38,"What is the ReLU activation function?","ReLU stands for Rectified Linear Unit and outputs the input if it is positive, otherwise 0.","ReLU, activation function, Rectified Linear Unit",Easy
+39,"What is the purpose of backpropagation?","Backpropagation calculates the gradient of the loss function with respect to weights.","Backpropagation, gradient, loss function",Medium
+40,"What is early stopping?","Early stopping halts training when the model performance on validation data stops improving.","Early Stopping, training, validation data",Medium
+41,"What is a generative model?","A generative model generates new data samples similar to the training data.","Generative Model, data samples",Medium
+42,"What is a discriminative model?","A discriminative model learns the boundary between classes in the data.","Discriminative Model, classes, boundary",Medium
+43,"What is a Boltzmann machine?","A Boltzmann machine is a type of stochastic neural network.","Boltzmann Machine, stochastic, neural network",Hard
+44,"What is an autoencoder?","An autoencoder is a neural network used for unsupervised learning to encode and decode data.","Autoencoder, neural network, unsupervised learning",Medium
+45,"What is batch normalization?","Batch normalization stabilizes learning by normalizing input layers during training.","Batch Normalization, input layers, training",Medium
+46,"What is a GAN?","A GAN is a Generative Adversarial Network that consists of a generator and a discriminator.","GAN, generator, discriminator",Hard
+47,"What is an LSTM?","An LSTM is a Long Short-Term Memory network used for sequence modeling.","LSTM, Long Short-Term Memory, sequence modeling",Hard
+48,"What is a word embedding?","A word embedding is a representation of words in a continuous vector space.","Word Embedding, vector space, representation",Medium
+49,"What is the difference between accuracy and precision?","Accuracy measures overall correctness, while precision focuses on true positive predictions.","Accuracy, Precision, correctness, true positives",Medium
+50,"What is recall in the context of a classification model?","Recall measures the ability to identify all relevant instances.","Recall, classification model, relevant instances",Medium
+51,"What is the elbow method in clustering?","The elbow method helps to find the optimal number of clusters by analyzing the inertia.","Elbow Method, clustering, inertia",Medium
+52,"What is hierarchical clustering?","Hierarchical clustering builds a hierarchy of clusters using a bottom-up or top-down approach.","Hierarchical Clustering, hierarchy, clusters",Medium
+53,"What is the K-nearest neighbors algorithm?","KNN is a simple algorithm that classifies data based on the closest training examples.","KNN, nearest neighbors, classification",Easy
+54,"What is a softmax function?","The softmax function converts scores into probabilities for classification.","Softmax, probabilities, classification",Medium
+55,"What is data augmentation?","Data augmentation generates additional training data by transforming existing data.","Data Augmentation, training data, transformation",Medium
+56,"What is one-hot encoding?","One-hot encoding represents categorical data as binary vectors.","One-Hot Encoding, categorical data, binary vectors",Easy
+57,"What is the ROC curve?","The ROC curve visualizes the performance of a classification model by plotting true positive rate vs. false positive rate.","ROC Curve, classification, true positive rate, false positive rate",Medium
+58,"What is AUC?","AUC stands for Area Under the Curve and measures the quality of a classifier.","AUC, Area Under Curve, classifier quality",Medium
+59,"What is transfer learning?","Transfer learning uses a pre-trained model for a related task to save time and resources.","Transfer Learning, pre-trained model, resources",Medium
+60,"What is a residual network (ResNet)?","ResNet is a type of deep neural network that uses skip connections to solve the vanishing gradient problem.","ResNet, residual network, skip connections, vanishing gradient",Hard
+61,"What is data leakage?","Data leakage occurs when information from outside the training dataset is used to create a model.","Data Leakage, training dataset, model creation",Medium
+62,"What is a random forest?","A random forest is an ensemble learning method based on decision trees.","Random Forest, ensemble learning, decision trees",Easy
+63,"What is a feature vector?","A feature vector is a numeric representation of an object’s characteristics.","Feature Vector, numeric representation, characteristics",Easy
+64,"What is a bias in Machine Learning?","Bias is an error introduced by approximating a complex problem by a simple model.","Bias, error, model approximation",Medium
+65,"What is variance in Machine Learning?","Variance measures how much a model’s predictions change when trained on different datasets.","Variance, model predictions, datasets",Medium
+66,"What is semi-supervised learning?","Semi-supervised learning uses both labeled and unlabeled data for training.","Semi-Supervised Learning, labeled data, unlabeled data",Medium
+67,"What is an ensemble model?","An ensemble model combines predictions from multiple models to improve accuracy.","Ensemble Model, predictions, accuracy",Medium
+68,"What is the difference between bagging and boosting?","Bagging reduces variance by averaging models, while boosting focuses on improving weak models.","Bagging, Boosting, variance, weak models",Hard
+69,"What is the purpose of a validation set?","A validation set is used to tune hyperparameters and avoid overfitting.","Validation Set, hyperparameters, overfitting",Medium
+70,"What is a learning rate?","A learning rate controls how much to adjust the model in response to the estimated error.","Learning Rate, model adjustment, error",Easy
+71,"What is a perceptron?","A perceptron is the simplest type of artificial neural network.","Perceptron, artificial neural network, simplest",Easy
+72,"What is dimensionality reduction?","Dimensionality reduction simplifies data by reducing the number of features.","Dimensionality Reduction, features, simplify",Medium
+73,"What is multi-class classification?","Multi-class classification deals with categorizing data into more than two classes.","Multi-Class Classification, categorization, classes",Medium
+74,"What is feature selection?","Feature selection identifies the most relevant features for a model.","Feature Selection, relevant features, model",Medium
+75,"What is a Markov Chain?","A Markov Chain is a stochastic process with memoryless transitions.","Markov Chain, stochastic process, memoryless",Hard
+76,"What is reinforcement signal?","Reinforcement signal is the feedback provided to an agent in reinforcement learning.","Reinforcement Signal, feedback, agent",Medium
+77,"What is batch size?","Batch size defines the number of samples processed before updating the model.","Batch Size, samples, model update",Easy
+78,"What is an adversarial example?","An adversarial example is an input designed to trick a machine learning model.","Adversarial Example, input, trick model",Hard
+79,"What is zero-shot learning?","Zero-shot learning predicts outcomes for classes not seen during training.","Zero-Shot Learning, predictions, unseen classes",Hard
+80,"What is the purpose of a test set?","A test set evaluates the performance of a fully trained model.","Test Set, performance evaluation, trained model",Easy
+81,"What is the Gini index?","The Gini index measures the impurity of a dataset split.","Gini Index, impurity, dataset split",Medium
+82,"What is entropy in decision trees?","Entropy measures the disorder or uncertainty in a dataset.","Entropy, decision trees, disorder, uncertainty",Medium
+83,"What is information gain?","Information gain measures the reduction in entropy after a dataset split.","Information Gain, entropy, dataset split",Medium
+84,"What is a time series?","A time series is a sequence of data points indexed by time.","Time Series, sequence, time",Easy
+85,"What is a moving average?","A moving average smooths out short-term fluctuations in time series data.","Moving Average, fluctuations, time series",Medium
+86,"What is gradient clipping?","Gradient clipping prevents gradients from exploding by capping their values.","Gradient Clipping, exploding gradients, capping",Hard
+87,"What is a softmax layer?","A softmax layer is used for multi-class classification to output probabilities.","Softmax Layer, multi-class classification, probabilities",Medium
+88,"What is the purpose of dropout?","Dropout prevents overfitting by randomly disabling neurons during training.","Dropout, overfitting, neurons",Medium
+89,"What is k-fold cross-validation?","K-fold cross-validation divides data into k subsets and trains models on k-1 while testing on the remaining.","K-Fold Cross-Validation, subsets, training, testing",Medium
+90,"What is a confusion matrix used for?","A confusion matrix evaluates the performance of a classification algorithm.","Confusion Matrix, evaluation, classification",Easy
+91,"What is latent variable?","A latent variable is not directly observed but inferred from other variables.","Latent Variable, inferred, not observed",Hard
+92,"What is the Manhattan distance?","Manhattan distance calculates the sum of absolute differences between points.","Manhattan Distance, absolute differences, points",Medium
+93,"What is a kernel in SVM?","A kernel function transforms data into a higher-dimensional space.","Kernel, SVM, higher-dimensional",Hard
+94,"What is the difference between generative and discriminative models?","Generative models learn joint probability, while discriminative models focus on decision boundaries.","Generative, Discriminative, probability, boundaries",Medium
+95,"What is sampling in statistics?","Sampling selects a subset of data from a larger dataset.","Sampling, subset, data",Easy
+96,"What is the difference between bagging and stacking?","Bagging combines similar models, while stacking combines different models.","Bagging, Stacking, models, ensemble",Medium
+97,"What is feature extraction?","Feature extraction transforms raw data into a set of features for analysis.","Feature Extraction, raw data, analysis",Medium
