@@ -112,4 +112,4 @@ const InterviewerBot = () => {
   );
 };
 
-export default InterviewerBot;s
+export default InterviewerBot;
