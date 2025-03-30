@@ -9,7 +9,6 @@ export function Select({ children, onValueChange, className }) {
       onValueChange(event.target.value);
     }
   };
-
   return (
     <div className={`relative ${className}`}>
       <select value={selectedValue} onChange={handleChange} className="border px-2 py-1 rounded w-full">

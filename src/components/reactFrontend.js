@@ -4,7 +4,6 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "./ui/select";
 
-
 import axios from "axios";
 import { motion } from "framer-motion";
 
@@ -113,4 +112,4 @@ const InterviewerBot = () => {
   );
 };
 
-export default InterviewerBot;
+export default InterviewerBot;s
